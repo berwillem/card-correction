@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgb(208, 231, 252);
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-image: url(./images/bg.png);
+  width: 400px;
+  height: 200px;
+  border-radius: 25px;
+  padding: 35px;
+}
+.logo img {
+  width: 70px;
+}
+#chip {
+  width: 80px;
+}
+.top-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.logo h3 {
+  font-weight: 400;
+  font-size: 18px;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+.left h3{
+    margin-top: 25px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: flex-end;
+   
+}
